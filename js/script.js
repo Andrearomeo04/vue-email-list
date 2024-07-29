@@ -6,6 +6,9 @@ createApp({
             emails: []
         }
     },
+    created() {
+        this.randomsEmail()
+    },
     methods: {
         randomsEmail () {
             for ( let i = 0; i < 10; i++) {
